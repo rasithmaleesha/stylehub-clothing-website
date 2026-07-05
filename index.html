@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <input type="checkbox" id="cartToggle" hidden>
+
+  <header>
+    <div class="logo">
+      <img src="image/logo.png" alt="StyleHub Logo">StyleHub
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <div class="dropdown">
+          <button class="dropdown-btn">Men ⌵</button>
+          <div class="dropdown-content">
+            <a href="shirt.html">Shirts</a>
+            <a href="tshirt.html">T-Shirts</a>
+            <a href="short.html">Shorts</a>
+            <a href="pants.html">Pants</a>
+          </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropdown-btn">Women ⌵</button>
+          <div class="dropdown-content">
+            <a href="croptop.html">Crop Tops</a>
+            <a href="womentshirt.html">T-Shirts</a>
+            <a href="womenshort.html">Shorts</a>
+            <a href="womenpant.html">Pants</a>
+          </div>
+        </div>
+
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Collection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="login">
+      <a href="login.html"> <img src="image/login.png" alt="login"></a>
+    </div>
+
+    <div class="cart">
+      <label for="cartToggle" class="cartBtn"><img src="image/cart.png" alt="cart"></label>
+    </div>
+
+
+  </header>
+
+
+  <div class="sideCart">
+    <label for="cartToggle" class="closeBtn">✖</label>
+    <h2>Your Cart</h2>
+    <div class="cart-content" id="cart-content">
+      <p>Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <hr>
+      <p>Total: Rs. <span id="cart-total">0</span></p>
+      <a href="checkout.html" class="checkout-button">Checkout</a>
+
+    </div>
+  </div>
+
+
+  <div class="uplogo">
+    <img src="image/banner.jpeg" alt="banner" class="banner-img">
+  </div>
+  <a href="new.html" class="shop-button">SHOP NEW</a>
+
+
+  <section class="summer-drop">
+    <h2>SUMMER DROP <span class="restock">RESTOCKS</span></h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="image/summer.jpeg" alt="Sundown Social Tee">
+        <h3>Sundown Social Tee</h3>
+        <p>2 Colors · Oversize Fit</p>
+        <span class="price">LKR 4,850</span>
+      </div>
+      <div class="product">
+        <img src="image/summer2.jpeg" alt="South Bay Tee">
+        <h3>South Bay Tee</h3>
+        <p>2 Colors · Oversize Fit</p>
+        <span class="price">LKR 3,250</span>
+      </div>
+      <div class="product">
+        <img src="image/summer3.jpeg" alt="Surf Club Tee">
+        <h3>Surf Club Tee</h3>
+        <p>2 Colors · Oversize Fit</p>
+        <span class="price">LKR 5,250</span>
+      </div>
+      <div class="product">
+        <img src="image/summer4.jpeg" alt="SNRGY Tee">
+        <h3>SNRGY Tee</h3>
+        <p>2 Colors · Fitted</p>
+        <span class="price">LKR 6,750</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="category-grid">
+    <div class="category-card mens">
+      <a href="mens.html">
+        <div class="overlay">
+          <span>MENS</span>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="category-card womens">
+      <a href="womens.html">
+        <div class="overlay">
+          <span>WOMENS</span>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="category-card accessories">
+      <a href="accessories.html">
+        <div class="overlay">
+          <span>ACCESSORIES</span>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+  <section class="summer-drop">
+    <h2>ACCESSORIES</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="image/acc1.jpeg" alt="Magnetic Sling Bag">
+        <h3>Magnetic Sling Bag</h3>
+        <p>Available Color : Jet Black</p>
+        <span class="price">LKR 9,500</span>
+      </div>
+      <div class="product">
+        <img src="image/acc2.jpeg.jpg" alt="Classic Dual Slides">
+        <h3>Classic Strap Slides</h3>
+        <p>Available Color : Jet Black</p>
+        <span class="price">LKR 4,250</span>
+      </div>
+      <div class="product">
+        <img src="image/acc3.jpeg.jpg" alt="Running Belt">
+        <h3>Running Belt</h3>
+        <p>Available Color : Yellow</p>
+        <p>Available Color : Pink</p>
+        <span class="price">LKR 5,500</span>
+      </div>
+      <div class="product">
+        <img src="image/acc4.jpeg" alt="Eco Tote Bag">
+        <h3>Eco Tote Bag</h3>
+        <p>Available Color : Sandstone</p>
+        <span class="price">LKR 3,850</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="downlogo">
+    <img src="image/downlogo.png" alt="downlogo" class="down-img">
+  </div>
+
+  <section class="best-sellers">
+    <h2>Best Sellers – Men's Apparel</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="image/best1.jpg" alt="Combat Field Jogger">
+        <h3>Combat Field Jogger</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 4,990</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best2.jpeg" alt="Urban Camp Shirt">
+        <h3>Urban Camp Shirt</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 5,450</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best3.jpeg.jpg" alt="Prime Stealth Shorts">
+        <h3>Prime Stealth Shorts</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 2,500</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best4.jpg" alt="Classic Seamless Cut Off">
+        <h3>Classic Seamless Cut Off</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 4,650</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="best-sellers">
+    <h2>Best Sellers – Women's Apparel</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="image/best5.jpeg.jpg" alt="Refined Midi Skort">
+        <h3>Refined Midi Skort</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 1,650</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best6.jpg" alt="Classic 2in1 Tank (With in-built bra)">
+        <h3>Classic 2in1 Tank (With in-built bra)</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 5,450</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best7.jpg" alt="Premium Cozy jogger - Unisex">
+        <h3>Premium Cozy jogger - Unisex</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 11,500</span>
+      </div>
+
+      <div class="product-card">
+        <img src="image/best8.jpg" alt="Premium Athletic Short">
+        <h3>Premium Athletic Short</h3>
+        <p>3 Colors · Regular Fit</p>
+        <span class="price">LKR 7,950</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="signup-container">
+    <h2>OUR NEWEST PRODUCTS STRAIGHT TO YOUR INBOX.</h2>
+    <p>Be the first to know about our products, limited-time offers, community events, and more.</p>
+    <form class="emailsignform">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="email-signup-btn">SIGN UP</button>
+    </form>
+  </div>
+
+
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="image/fotterlogo.png" alt="stylehub Logo">
+        <p><a href="mailto:stylehub@gmail.com">stylehub@gmail.com</a></p>
+        <div class="social-icons">
+          <a href="https://wa.me/+94755016534"> <img src="image/whatsapp.png" alt="WhatsApp"></a>
+          <a href="https://web.facebook.com/p/StyleHub-Boutique-100069109124088/?_rdc=1&_rdr#"> <img
+              src="image/facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="terms.html">Terms Of Use</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Care</h3>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="orderhistory.html">Order History</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p> <a href="tel:+94774480665"><img src="image/phone.png" /> +94 755016534</a></p>
+        <p><Label id="loc"><img src="image/store.png" />Market Place, Kandana</Label></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

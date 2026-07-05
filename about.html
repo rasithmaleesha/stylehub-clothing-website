@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - StyleHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <input type="checkbox" id="cartToggle" hidden>
+
+  <header>
+    <div class="logo"><img src="image/logo.png" alt="StyleHub Logo">StyleHub
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <div class="dropdown">
+          <button class="dropdown-btn">Men ⌵</button>
+          <div class="dropdown-content">
+            <a href="shirt.html">Shirts</a>
+            <a href="tshirt.html">T-Shirts</a>
+            <a href="short.html">Shorts</a>
+            <a href="pants.html">Pants</a>
+          </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropdown-btn">Women ⌵</button>
+          <div class="dropdown-content">
+            <a href="croptop.html">Crop Tops</a>
+            <a href="womentshirt.html">T-Shirts</a>
+            <a href="womenshort.html">Shorts</a>
+            <a href="womenpant.html">Pants</a>
+          </div>
+        </div>
+
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Collection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="login">
+      <a href="login.html"> <img src="image/login.png" alt="login"></a>
+    </div>
+
+    <div class="cart">
+      <label for="cartToggle" class="cartBtn"><img src="image/cart.png" alt="cart"></label>
+    </div>
+
+  </header>
+
+  <div class="sideCart">
+    <label for="cartToggle" class="closeBtn">✖</label>
+    <h2>Your Cart</h2>
+    <div class="cart-content" id="cart-content">
+      <p>Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <hr>
+      <p>Total: Rs. <span id="cart-total">0</span></p>
+      <a href="checkout.html" class="checkout-button">Checkout</a>
+
+    </div>
+  </div>
+
+  <main>
+    <section class="about-section">
+      <h1>About Us</h1>
+      <p>At StyleHub, we believe that clothing is more than just fabric; it’s a form of self-expression. Born from a
+        passion for bold design and timeless style, our brand is built for those who dare to stand out. Whether you're
+        chasing streetwear vibes, minimalist elegance, or everyday comfort, we’ve got something that speaks your
+        language.
+
+        Founded with the vision of making high-quality fashion accessible and empowering, StyleHub blends global trends
+        with local flavor. Every piece we create is thoughtfully designed to inspire confidence, celebrate diversity,
+        and elevate your everyday wardrobe.
+
+        We’re not just a brand — we’re a community. From limited-edition drops to exclusive events, we bring together
+        style enthusiasts who share a love for creativity and authenticity. Our commitment to sustainability means we’re
+        constantly evolving, using eco-conscious materials and ethical practices to shape a better future for fashion.
+
+        Join us on this journey. Wear your story. Define your style. Welcome to StyleHub.</p>
+      <h2>Our Vision</h2>
+      <p>To redefine everyday fashion by empowering individuals to express their unique style with confidence,
+        sustainability, and creativity.</p>
+      <h2>Our Mission</h2>
+      <p>At StyleHub, we craft versatile, high-quality clothing that blends global trends with local spirit. Our mission
+        is to inspire self-expression, foster community, and promote ethical fashion through thoughtful design and
+        inclusive experiences.
+      </p>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="image/fotterlogo.png" alt="stylehub Logo">
+        <p><a href="mailto:stylehub@gmail.com">stylehub@gmail.com</a></p>
+        <div class="social-icons">
+          <a href="https://wa.me/+94755016534"> <img src="image/whatsapp.png" alt="WhatsApp"></a>
+          <a href="https://web.facebook.com/p/StyleHub-Boutique-100069109124088/?_rdc=1&_rdr#"> <img
+              src="image/facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="terms.html">Terms Of Use</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Care</h3>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="orderhistory.html">Order History</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p> <a href="tel:+94774480665"><img src="image/phone.png" /> +94 755016534</a></p>
+        <p><Label id="loc"><img src="image/store.png" />Market Place, Kandana</Label></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
